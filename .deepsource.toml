@@ -1,0 +1,12 @@
+version = 1
+
+exclude_patterns = [
+    "test/**",
+    "docs/**"
+]
+
+[[analyzers]]
+name = "java"
+enabled = true
+    [analyzers.meta]
+    runtime_version = "11"
